@@ -1,0 +1,64 @@
+#### LINES
+
+lines.linewidth : 2.0
+lines.linestyle : -
+lines.markeredgewidth : 2.0
+
+#### FONT
+
+font.family : serif
+font.size : 15
+
+#### TEXT
+
+#### LATEX
+
+text.usetex: False
+mathtext.fontset : custom
+
+#### AXES
+
+axes.linewidth : 1
+axes.labelsize : 15
+axes.labelpad : 5
+axes.titlepad : 10
+axes.titlesize : 20
+
+#### TICKS
+
+xtick.major.size : 4
+ytick.major.size : 4
+xtick.minor.size : 2
+ytick.minor.size : 2
+xtick.major.width : 1.5
+ytick.major.width : 1.5
+xtick.minor.width : 1.5
+ytick.minor.width : 1.5
+xtick.direction : in
+ytick.direction : in
+xtick.labelsize : 15
+ytick.labelsize : 15
+xtick.minor.visible : True
+ytick.minor.visible : True
+xtick.major.pad : 5
+ytick.major.pad : 5
+
+#### LEGEND
+
+legend.numpoints : 1
+legend.frameon: False
+legend.handletextpad : 0.5
+legend.fontsize : 15
+
+#### FIGURE
+
+figure.figsize : 6.4,4.8 ## figure size in inches
+
+#### PATHS
+
+path.simplify : True
+
+#### SAVING
+
+savefig.bbox : tight
+savefig.pad_inches : 0.1

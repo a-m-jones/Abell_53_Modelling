@@ -1,0 +1,85 @@
+#####CS parameters#####
+blackbody 5.0169 
+luminosity total solar 2.6056 
+#####Geometry#####
+radius 17.4459965099 17.7121123929 
+distance 2029.0 parsecs linear 
+hden 2.9215
+filling factor -0.32335
+#####Dust and shocks#####
+grains ISM 
+#####Abundances#####
+element abundance helium -0.885172 
+element abundance nitrogen -3.753978 
+element abundance oxygen -3.095145 
+element abundance neon -3.357303 
+element abundance sulphur -5.327289 
+element abundance argon -5.469643 
+element abundance carbon -3.188 
+element abundance silicon -6.699 
+element abundance chlorine -6.796 
+element abundance magnesium -6.886 
+element abundance iron -7.097 
+#####Other#####
+init file="ism.ini"
+COSMIC RAY BACKGROUND
+print lines sort wavelength
+print last iteration
+sphere
+iterate
+stop temperature off
+database H2
+save last radius ".rad"
+save last continuum ".cont"
+save last overview ".ovr"
+save last physical conditions ".phy"
+save last grain abundance ".grn_abun"
+save last grain D/G ratio ".grn_d2g"
+save last grain H2rate ".grn_h2" 
+save last grain heating ".grn_heat"
+save last grain temperature ".grn_temp"
+save last H2 rates ".h2rates"
+#####Lines to save#####
+save last lines emissivity ".emis" 
+Ne 3 3967.47A
+H  1 4861.33A
+Blnd 3727.00A
+S  3 6312.06A
+O  3 4958.91A
+Blnd 7332.00A
+He 2 4685.64A
+He 1 6678.15A
+H  1 6562.81A
+O  3 5006.84A
+H  1 4340.46A
+Ne 3 3868.76A
+He 1 5875.64A
+Ar 3 7135.79A
+Ar 3 7751.11A
+N  1 5197.90A
+Ar 5 7005.83A
+N  2 5754.61A
+O  1 6363.78A
+Blnd 7323.00A
+H  1 4101.73A
+S  2 6716.44A
+S  2 6730.82A
+Blnd 4363.00A
+He 1 7065.22A
+N  2 6548.05A
+O  1 6300.30A
+N  2 6583.45A
+He 1 7281.35A
+He 1 2.05813m
+H2   2.07294m
+H2   2.12125m
+H  1 2.16551m
+H2   2.20080m
+H2   2.22269m
+H2   2.24711m
+H2   2.40594m
+IRAC 3.6m
+IRAC 4.5m
+IRAC 5.8m
+IRAC 8.0m
+end of lines 
