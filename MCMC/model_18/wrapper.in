@@ -1,0 +1,14 @@
+parameter 4.707570 5.276462
+parameter 2.0 3.0
+parameter 17.34065 17.60334
+parameter 1.7 3.0
+parameter 2.0 3.699
+parameter -1.0 0.0
+infile /home/ajones/2_PhD/MCMC/model_18/chisq-stripw.sh
+outfile wrapper.out
+
+lambda 0.01
+steps 30
+factor 1.2
+
+results 10000
